@@ -9,18 +9,18 @@ const minIntegerFromArray = functions.minIntegerFromArray;
 const minIntegerFromString = functions.minIntegerFromString;
 const concatStringsByLength = functions.concatStringsByLength;
 
-// testCases1.forEach(testCase => {
-//    console.log(random(testCase.x, testCase.y));
-// });
+testCases1.forEach(testCase => {
+   console.log(random(testCase.x, testCase.y));
+});
 
 
-// testCases2.forEach(testCase => {
-//     console.log(minIntegerFromArray(testCase));
-// });
+testCases2.forEach(testCase => {
+    console.log(minIntegerFromArray(testCase));
+});
 
-// testCases3.forEach(testCase => {
-//     console.log(minIntegerFromString(testCase));
-// });
+testCases3.forEach(testCase => {
+    console.log(minIntegerFromString(testCase));
+});
 
 testCases4.forEach(testCase => {
     console.log(concatStringsByLength(testCase.x, testCase.y));
